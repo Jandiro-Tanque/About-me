@@ -1,0 +1,69 @@
+
+.navbar {
+  background: linear-gradient(90deg, #fff, #f8f9fa);
+}
+
+.nav-link:hover {
+  color: #dc3545 !important;
+  transition: color 0.3s;
+  transform: scale(1.05);
+}
+
+.botao:hover{
+  background: linear-gradient(to right,#640303,rgb(192, 12, 12)); 
+      transform: scale(1.05);
+      box-shadow: 0 1px 30px rgb(105, 3, 3);
+}
+
+.botao{
+      color: #fff;
+      padding: 9px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.6s ease, transform 0.4s ease;
+}
+.cartao:hover{
+      transform: scale(1.05);
+      transition: transform 0.4s ease;
+}
+
+@keyframes moverEDecolar {
+  0% {
+    transform: translatey(0) translatex(0);;
+    background-color: #0f87b6;
+  }
+  50% {
+    transform: translatey(10px) translatex(10px);; 
+    background-color: #073a3a;
+  }
+  100% {
+    transform: translateX(0) translatex(1px);;
+    background-color: #a3030b;
+  }
+}
+
+/* Aplicando a animação ao elemento */
+.movimento {
+  animation: moverEDecolar 4s ease-in-out infinite;
+  /* '3s' de duração, 'ease-in-out' para suavizar o começo e o final e 'infinite' para repetir a animação continuamente */
+}
+
+.sombra{
+  box-shadow: 0 1px 30px rgba(7, 7, 7,0.4);
+}
+
+.sombra2{
+  box-shadow: 0 6px 39px rgba(129, 3, 3, 1);
+}
+
+body{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  body {
+  overflow-x: none;
+}
+
+}
